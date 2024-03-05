@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IntagHand's Project Page</title>
+<!-- Bootstrap -->
+<link href="./css/bootstrap-4.0.0.css" rel="stylesheet">
+</head>
+<body>
+<div id="page_container">
+<header>
+  <div class="jumbotron" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-center">IEEE CVPR 2022</h5>
+          <h2 class="text-center">Interacting Attention Graph for Single Image Two-Hand Reconstruction</h1>
+          <p class="text-center">&nbsp;</p>
+          <h6 class="text-center"><a href="https://dw1010.github.io">Mengcheng Li</a><sup>1</sup>, <a href="https://anl13.github.io">Liang An</a><sup>1</sup>, <a href="https://zhanghongwen.cn/">Hongwen Zhang</a><sup>1</sup>, Lianpeng Wu<sup>2</sup>, Feng Chen<sup>1</sup>, <a href="http://ytrock.com/">Tao Yu</a><sup>1</sup>, <a href="http://www.liuyebin.com/">Yebin Liu</a><sup>1</sup></h6>
+          <p class="text-center"><sup>1</sup>Tsinghua University, <sup>2</sup>Hisense Inc.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Abstract</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center  offset-xl-0 col-xl-12">
+        <p class="text-left"><em>Graph convolutional network (GCN) has achieved great success in single hand reconstruction task, while interacting two-hand reconstruction by GCN remains unexplored. In this paper, we present <b>Int</b>eracting <b>A</b>ttention <b>G</b>raph <b>Hand</b> (<b>IntagHand</b>), the first graph convolution based network that reconstructs two interacting hands from a single RGB image. To solve occlusion and interaction challenges of two-hand reconstruction, we introduce two novel attention based modules in each upsampling step of original GCN. The first module is the pyramid image feature attention (PIFA) module, which utilizes multiresolution features to implicitly obtain vertex-to-image alignment. The second module is the cross hand attention (CHA) module that encodes the coherence of interacting hands by building dense cross-attention between two hand vertices. As a result, our model outperforms all existing two-hand reconstruction methods by a large margin on InterHand2.6M benchmark. Moreover, ablation studies verify the effectiveness of both PIFA and CHA modules for improving the reconstruction accuracy. Results on in-the-wild images further demonstrate the generalization ability of our network. </em></p>
+        <p class="text-left">&nbsp;</p>
+        <h5 class="text-center">
+          <a href="https://arxiv.org/abs/2203.09364">[arXiv]</a>
+          <a href="https://github.com/Dw1010/IntagHand">[Code]</a>
+        </h5>
+        <p class="text-left">&nbsp;</p>
+        <img src="assets/pipeline.png" width="800" alt=""/>
+        <p>Fig 1.&nbsp;Our network structure. Given an RGB image as input, our network first distills a global feature vector, a sequence of pyramid image features along with other auxiliary predictions (2D pose, segmentation, dense mapping encoding). Then our model directly regresses the 3D coordinates of two hands surface vertices after three steps of IntagHand blocks and upsampling. Each IntagHand block contains a GCN module, a pyramid image feature attention (PIFA) module and a cross-hand attention (CHA) module. </p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Results </h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="assets/main_results.png" width="800" alt=""/>
+        <p>&nbsp;</p>
+        <p class="text-center">Fig 2. Qualitative results of our method on InterHand2.6M test dataset.
+        Our method works well under various kinds of interactions. Note that, our method could even produce correct finger level interactions without explicit collision detection. </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> 
+        <img src="assets/results1.png" width="800" alt=""/>
+        <img src="assets/results2.png" width="800" alt=""/>
+        <p>&nbsp;</p>
+        <p class="text-center">Fig 3. Qualitative results of our method on in-the-wild images. Our method performs well on our real-life data captured by a common USB camera.  </p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Technical Paper</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"> <a href="assets/main.pdf"><img src="assets/paper.png" width="1000" alt=""/></a>
+      <p>&nbsp;</p>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Demo Video</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+      <video controls="controls" width="1024" height="576">
+        <source src="assets/video.mp4" type="video/mp4">
+      </video>
+      <p>&nbsp;</p>
+    </div>
+	<hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Citation</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-left">
+      <p><span style="color:#000000;font-family:'Courier New';font-size:15px;"> Mengcheng Li, Liang An, Hongwen Zhang, Lianpeng Wu, Feng Chen, Tao Yu, Yebin Liu. "Interacting Attention Graph for Single Image Two-Hand Reconstruction". In Proceedings of IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR), 2022.</span></p>
+      <p>&nbsp;</p>
+      <p><span style="color:#000000;font-family:'Courier New';font-size:15px;">@inproceedings{Li2022intaghand, <br>
+			title={Interacting Attention Graph for Single Image Two-Hand Reconstruction},<br>
+			author={Mengcheng Li, Liang An, Hongwen Zhang, Lianpeng Wu, Feng Chen, Tao Yu and Yebin Liu},<br>
+      booktitle={IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)},<br>
+      month=jun,<br>
+			year={2022},<br>
+		}</span></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="row"> </div>
+  </div>
+  <div class="jumbotron"> </div>
+</section>	
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="./js/jquery-3.2.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="./js/popper.min.js"></script> 
+<script src="./js/bootstrap-4.0.0.js"></script>
+</body>
+</html>

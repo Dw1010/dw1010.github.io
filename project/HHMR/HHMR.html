@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HHMR's Project Page</title>
+<!-- Bootstrap -->
+<link href="./css/bootstrap-4.0.0.css" rel="stylesheet">
+</head>
+<body>
+<div id="page_container">
+<header>
+  <div class="jumbotron" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-center">IEEE CVPR 2024</h5>
+          <h2 class="text-center">HHMR: Holistic Hand Mesh Recovery by Enhancing the Multimodal Controllability of Graph Diffusion Models</h1>
+          <p class="text-center">&nbsp;</p>
+          <h6 class="text-center"><a href="https://dw1010.github.io">Mengcheng Li</a><sup>1</sup>, <a href="https://hongwenzhang.github.io">Hongwen Zhang</a><sup>2</sup>, <a href="https://zhangyux15.github.io/">Yuxiang Zhang</a><sup>1</sup>, <a href="https://dsaurus.github.io/saurus/">Ruizhi Shao</a><sup>1</sup>, <a href="http://ytrock.com/">Tao Yu</a><sup>1</sup>, <a href="http://www.liuyebin.com/">Yebin Liu</a><sup>1</sup></h6>
+          <p class="text-center"><sup>1</sup>Tsinghua University, <sup>2</sup>Beijing Normal University.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <p>&nbsp;</p>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Abstract</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center  offset-xl-0 col-xl-12">
+        <p class="text-left"><em>Recent years have witnessed a trend of the deep integration of the generation and reconstruction paradigms. 
+          In this paper, we extend the ability of controllable generative models for a more comprehensive hand mesh recovery task: direct hand mesh generation, inpainting, reconstruction, and fitting in a single framework, which we name as <b>H</b>olistic <b>H</b>and <b>M</b>esh <b>R</b>ecovery (HHMR).
+          Our key observation is that different kinds of hand mesh recovery tasks can be achieved by a single generative model with strong multimodal controllability, and in such a framework, realizing different tasks only requires giving different signals as conditions.
+          To achieve this goal, we propose an all-in-one diffusion framework based on graph convolution and attention mechanisms for holistic hand mesh recovery. 
+          In order to achieve strong control generation capability while ensuring the decoupling of multimodal control signals, we map different modalities to a shared feature space and apply cross-scale random masking in both modality and feature levels.
+          In this way, the correlation between different modalities can be fully exploited during the learning of hand priors.
+          Furthermore, we propose Condition-aligned Gradient Guidance to enhance the alignment of the generated model with the control signals, which significantly improves the accuracy of the hand mesh reconstruction and fitting.
+          Experiments show that our novel framework can realize multiple hand mesh recovery tasks simultaneously and outperform the existing methods in different tasks, which provides more possibilities for subsequent downstream applications including gesture recognition, pose generation, mesh editing, and so on. </em></p>
+        <p class="text-left">&nbsp;</p>
+        <h5 class="text-center">
+          <a>[arXiv (Coming Soon)]</a>
+          <a>[Code (Coming Soon)]</a>
+        </h5>
+        <p class="text-left">&nbsp;</p>
+        <img src="assets/teaser.png" width="900" alt=""/>
+        <p>Fig 1.&nbsp;We introduce <b>HHMR</b>, a graph diffusion-based generation framework that are compatible with various human hand mesh recovery tasks. </p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Results </h2>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="assets/pipeline.png" width="900" alt=""/>
+        <p>&nbsp;</p>
+        <p class="text-center">Fig 2. The pipeline of our graph diffusion model. With task-specific conditions, our model progressively removes noise from randomly
+          Gaussian noise and directly reconstructs the complete hand meshes. Additionally, we introduce a gradient-based guidance to improve the
+          alignment between the generated results and observations. </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> 
+        <img src="assets/main_results.png" width="900" alt=""/>
+        <p>&nbsp;</p>
+        <p class="text-center">Fig 3. Qualitative results of our method for different downstream tasks. From left to right are i) hand mesh generation results from
+          random Gaussian noise, ii) hand mesh inpainting from incomplete hand mesh or skeleton, iii) hand mesh reconstruction from monocular
+          RGB image, and iv) hand mesh fitting from 2D skeletons.
+            </p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Technical Paper</h2>
+      </div>
+    </div>
+    <p class="text-center">(Early access, not camera ready version)</p>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center"> <a href="assets/main.pdf"><img src="assets/paper.png" width="1000" alt=""/></a>
+      <p>&nbsp;</p>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+        <h2>Demo Video</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+      <video controls="controls" width="1024" height="576">
+        <source src="assets/Video.m4v" type="video/m4v">
+      </video>
+      <p>&nbsp;</p>
+    </div>
+	<hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h2>Citation</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-left">
+      <p><span style="color:#000000;font-family:'Courier New';font-size:15px;">
+        Mengcheng Li, Hongwen Zhang, Yuxiang Zhang, Ruizhi Shao, Tao Yu, Yebin Liu.
+        "HHMR: Holistic Hand Mesh Recovery by Enhancing the Multimodal Controllability of Graph Diffusion Models". In Proceedings of IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR), 2024.</span></p>
+      <p>&nbsp;</p>
+      <p><span style="color:#000000;font-family:'Courier New';font-size:15px;">
+      @inproceedings{Li2024HHMR, <br>
+			title={HHMR: Holistic Hand Mesh Recovery by Enhancing the Multimodal Controllability of Graph Diffusion Models},<br>
+			author={Mengcheng Li, Hongwen Zhang, Yuxiang Zhang, Ruizhi Shao, Tao Yu and Yebin Liu.},<br>
+      booktitle={IEEE/CVF Conf. on Computer Vision and Pattern Recognition (CVPR)},<br>
+			year={2024},<br>
+		}</span></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="row"> </div>
+  </div>
+  <div class="jumbotron"> </div>
+</section>	
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="./js/jquery-3.2.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="./js/popper.min.js"></script> 
+<script src="./js/bootstrap-4.0.0.js"></script>
+</body>
+</html>
