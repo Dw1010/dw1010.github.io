@@ -8,7 +8,7 @@ redirect_from:
   - /main_page.html
 ---
 
-Hi, this is Mengcheng Li. I am a Ph.D. student in Department of Automation, Tsinghua University, advised by Prof. [Yebin Liu](http://www.liuyebin.com/).
+Hi, this is Mengcheng Li. I am a Ph.D. student in the Department of Automation at Tsinghua University, advised by Prof. [Yebin Liu](http://www.liuyebin.com/). My research focuses on hand motion capture, hand 3D reconstruction, hand interaction and motion generation, and hand avatar generation.
 
 ## Education
 
@@ -106,7 +106,7 @@ Yuxiang Zhang，Zhe Li，Tao Yu, <b>Mengcheng Li</b>, Liang An, Yebin Liu.<br>
 <td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
 <b>Learning Explicit Contact for Implicit Reconstruction of Hand-held Objects from Monocular Images</b><br>
 Junxing Hu, Hongwen Zhang, Zerui Chen, <b>Mengcheng Li</b>, Yunlong Wang, Yebin Liu, Zhenan Sun.<br>
-<i>AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2024</b></i><br>
+<i>AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2024</i><br>
 <a href="https://junxinghu.github.io/projects/hoi.html"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27995"><i class="fas fa-fw fa-file-pdf"></i>Paper</a> /
 <a href="https://github.com/JunxingHu/CHOI"><i class="fab fa-fw fa-github fa-github"></i>Code</a>
