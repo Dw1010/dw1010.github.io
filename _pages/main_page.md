@@ -190,7 +190,7 @@ Junxing Hu, Hongwen Zhang, Zerui Chen, <b>Mengcheng Li</b>, Yunlong Wang, Yebin 
 <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle;border:none" align="center">
-<img width="350" src="/images/CHOI.jpg"/>
+<img width="350" src="/images/ManiDext.png"/>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
 <b>ManiDext: Hand-Object Manipulation Synthesis via Continuous Correspondence Embeddings and Residual-Guided Diffusion</b><br>
