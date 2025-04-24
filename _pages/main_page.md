@@ -10,6 +10,75 @@ redirect_from:
 
 Hi, this is Mengcheng Li. I am a Ph.D. student in the Department of Automation at Tsinghua University, advised by Prof. [Yebin Liu](http://www.liuyebin.com/). My research focuses on hand motion capture, hand 3D reconstruction, hand interaction and motion generation, and hand avatar generation.
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x2 视频阵列</title>
+    <style>
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        video {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .caption {
+            margin-top: 10px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-grid">
+        <!-- 第一行 -->
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="files/recon.m4v" type="video/mp4">
+            </video>
+            <div class="caption">Hand Reconstruction</div>
+        </div>
+        
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="files/intaghand.m4v" type="video/mp4">
+            </video>
+            <div class="caption">Two Hand Interaction</div>
+        </div>
+        
+        <!-- 第二行 -->
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="files/avatar.m4v" type="video/mp4">
+            </video>
+            <div class="caption">Hand Avatar</div>
+        </div>
+        
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="files/twohand.m4v" type="video/mp4">
+            </video>
+            <div class="caption">Two Hand Avatar</div>
+        </div>
+    </div>
+</body>
+
 ## Education
 
 - Bachelor’s Degree in physics, **Tsinghua University** *(2014-2018)*
