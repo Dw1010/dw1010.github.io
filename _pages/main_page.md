@@ -185,3 +185,22 @@ Junxing Hu, Hongwen Zhang, Zerui Chen, <b>Mengcheng Li</b>, Yunlong Wang, Yebin 
 </div>
 
 ---
+
+<div>
+<table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
+<tr>
+<td style="padding:20px;width:30%;vertical-align:middle;border:none" align="center">
+<img width="350" src="/images/CHOI.jpg"/>
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
+<b>ManiDext: Hand-Object Manipulation Synthesis via Continuous Correspondence Embeddings and Residual-Guided Diffusion</b><br>
+Jiajun Zhang, Yuxiang Zhang, Liang An, <b>Mengcheng Li</b>, Hongwen Zhang, Zonghai Hu, Yebin Liu.<br>
+<i>arXiv</i><br>
+<a href="https://jiajunzhang16.github.io/manidext/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
+<a href="https://www.arxiv.org/pdf/2409.09300"><i class="fas fa-fw fa-file-pdf"></i>Paper</a>
+</td>
+</tr>
+</table>
+</div>
+
+---
