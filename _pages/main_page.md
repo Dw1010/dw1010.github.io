@@ -204,3 +204,23 @@ Jiajun Zhang, Yuxiang Zhang, Liang An, <b>Mengcheng Li</b>, Hongwen Zhang, Zongh
 </div>
 
 ---
+
+<div>
+<table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
+<tr>
+<td style="padding:20px;width:30%;vertical-align:middle;border:none" align="center">
+<img width="350" src="/images/omnihand.png"/>
+</td>
+<td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
+<b>4DHands: Reconstructing Interactive Hands in 4D with Transformers</b><br>
+Dixuan Lin, Yuxiang Zhang, <b>Mengcheng Li</b>, Yebin Liu, Wei Jing, Qi Yan, Qianying Wang, Hongwen Zhang.<br>
+<i>arXiv</i><br>
+<a href="https://4dhands.github.io/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
+<a href="https://arxiv.org/pdf/2405.20330v2"><i class="fas fa-fw fa-file-pdf"></i>Paper</a> /
+<a href="https://github.com/LinDixuan/OmniHands"><i class="fab fa-fw fa-github fa-github"></i>Code</a>
+</td>
+</tr>
+</table>
+</div>
+
+---
