@@ -8,7 +8,10 @@ redirect_from:
   - /main_page.html
 ---
 
-Hi, this is Mengcheng Li. I am a Ph.D. student in the Department of Automation at Tsinghua University, advised by Prof. [Yebin Liu](http://www.liuyebin.com/). My research focuses on hand motion capture, hand 3D reconstruction, hand interaction and motion generation, and hand avatar generation.
+Hello, I'm Mengcheng Li. I am currently an algorithm engineer at Honor.
+I received my Ph.D. degree from the Department of Automation, Tsinghua University, under the supervision of Professor [Yebin Liu](http://www.liuyebin.com/). During my doctoral studies, my main research focused on hand motion capture, hand 3D reconstruction, hand interaction and motion generation, and hand avatar generation.
+I am currently open to new career opportunities. Feel free to contact me at: mengcheng_li@163.com
+Here is my resume: [中文简历](../files/mengcheng_li_resume_v2.pdf)
 
 <head>
     <meta charset="UTF-8">
@@ -82,7 +85,11 @@ Hi, this is Mengcheng Li. I am a Ph.D. student in the Department of Automation a
 ## Education
 
 - Bachelor’s Degree in physics, **Tsinghua University** *(2014-2018)*
-- Ph.D student in automation, **Tsinghua University** *(2018-now)*
+- Ph.D student in automation, **Tsinghua University** *(2018-2025)*
+
+## Work
+
+- Senior Algorithm Engineer, **Honor Terminal Co., Ltd.** *(2025-Now)*
 
 
 ## Research
@@ -131,15 +138,15 @@ Hi, this is Mengcheng Li. I am a Ph.D. student in the Department of Automation a
 <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle;border:none" align="center">
-<img width="350" src="/images/pymaf-x.jpg"/>
+<img width="350" src="/images/omnihand.png"/>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
-<b>PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images</b><br>
-Hongwen Zhang, Yating Tian, Yuxiang Zhang, <b>Mengcheng Li</b>, Liang An, Zhenan Sun, Yebin Liu.<br>
-<i>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2023</i><br>
-<a href="https://www.liuyebin.com/pymaf-x/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
-<a href="https://arxiv.org/pdf/2207.06400.pdf"><i class="fas fa-fw fa-file-pdf"></i>Paper</a> /
-<a href="https://github.com/HongwenZhang/PyMAF-X"><i class="fab fa-fw fa-github fa-github"></i>Code</a>
+<b>OmniHands: Towards Robust 4D Hand Mesh Recovery via A Versatile Transformer</b><br>
+Dixuan Lin, Yuxiang Zhang, <b>Mengcheng Li</b>, Qi Yan, Qianying Wang, Yebin Liu, Wei Jing, Hongwen Zhang.<br>
+<i>ACM Transactions on Graphics (<b>TOG</b>), 2026</i><br>
+<a href="https://omnihand.github.io/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
+<a href="https://arxiv.org/pdf/2405.20330v2"><i class="fas fa-fw fa-file-pdf"></i>Paper</a> /
+<a href="https://github.com/LinDixuan/OmniHands"><i class="fab fa-fw fa-github fa-github"></i>Code</a>
 </td>
 </tr>
 </table>
@@ -151,14 +158,14 @@ Hongwen Zhang, Yating Tian, Yuxiang Zhang, <b>Mengcheng Li</b>, Liang An, Zhenan
 <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle;border:none" align="center">
-<img width="350" src="/images/lwtotalcap.jpg"/>
+<img width="350" src="/images/ManiDext.png"/>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
-<b>Light-weight Multi-person Total Capture Using Sparse Multi-view Cameras</b><br>
-Yuxiang Zhang，Zhe Li，Tao Yu, <b>Mengcheng Li</b>, Liang An, Yebin Liu.<br>
-<i>IEEE Conference on International Conference on Computer Vision (<b>ICCV</b>), 2021</i><br>
-<a href="https://www.liuyebin.com/lwtotalcap/lwtotalcap.html"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
-<a href="https://www.liuyebin.com/lwtotalcap/assets/main.pdf"><i class="fas fa-fw fa-file-pdf"></i>Paper</a>
+<b>ManiDext: Hand-Object Manipulation Synthesis via Continuous Correspondence Embeddings and Residual-Guided Diffusion</b><br>
+Jiajun Zhang, Yuxiang Zhang, Liang An, <b>Mengcheng Li</b>, Hongwen Zhang, Zonghai Hu, Yebin Liu.<br>
+<i>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2025</i><br>
+<a href="https://jiajunzhang16.github.io/manidext/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
+<a href="https://www.arxiv.org/pdf/2409.09300"><i class="fas fa-fw fa-file-pdf"></i>Paper</a>
 </td>
 </tr>
 </table>
@@ -190,14 +197,15 @@ Junxing Hu, Hongwen Zhang, Zerui Chen, <b>Mengcheng Li</b>, Yunlong Wang, Yebin 
 <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle;border:none" align="center">
-<img width="350" src="/images/ManiDext.png"/>
+<img width="350" src="/images/pymaf-x.jpg"/>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
-<b>ManiDext: Hand-Object Manipulation Synthesis via Continuous Correspondence Embeddings and Residual-Guided Diffusion</b><br>
-Jiajun Zhang, Yuxiang Zhang, Liang An, <b>Mengcheng Li</b>, Hongwen Zhang, Zonghai Hu, Yebin Liu.<br>
-<i>arXiv</i><br>
-<a href="https://jiajunzhang16.github.io/manidext/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
-<a href="https://www.arxiv.org/pdf/2409.09300"><i class="fas fa-fw fa-file-pdf"></i>Paper</a>
+<b>PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images</b><br>
+Hongwen Zhang, Yating Tian, Yuxiang Zhang, <b>Mengcheng Li</b>, Liang An, Zhenan Sun, Yebin Liu.<br>
+<i>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>), 2023</i><br>
+<a href="https://www.liuyebin.com/pymaf-x/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
+<a href="https://arxiv.org/pdf/2207.06400.pdf"><i class="fas fa-fw fa-file-pdf"></i>Paper</a> /
+<a href="https://github.com/HongwenZhang/PyMAF-X"><i class="fab fa-fw fa-github fa-github"></i>Code</a>
 </td>
 </tr>
 </table>
@@ -209,15 +217,14 @@ Jiajun Zhang, Yuxiang Zhang, Liang An, <b>Mengcheng Li</b>, Hongwen Zhang, Zongh
 <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
 <tr>
 <td style="padding:20px;width:30%;vertical-align:middle;border:none" align="center">
-<img width="350" src="/images/omnihand.png"/>
+<img width="350" src="/images/lwtotalcap.jpg"/>
 </td>
 <td style="padding:20px;width:70%;vertical-align:middle;border: none" align="left">
-<b>4DHands: Reconstructing Interactive Hands in 4D with Transformers</b><br>
-Dixuan Lin, Yuxiang Zhang, <b>Mengcheng Li</b>, Yebin Liu, Wei Jing, Qi Yan, Qianying Wang, Hongwen Zhang.<br>
-<i>arXiv</i><br>
-<a href="https://4dhands.github.io/"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
-<a href="https://arxiv.org/pdf/2405.20330v2"><i class="fas fa-fw fa-file-pdf"></i>Paper</a> /
-<a href="https://github.com/LinDixuan/OmniHands"><i class="fab fa-fw fa-github fa-github"></i>Code</a>
+<b>Light-weight Multi-person Total Capture Using Sparse Multi-view Cameras</b><br>
+Yuxiang Zhang，Zhe Li，Tao Yu, <b>Mengcheng Li</b>, Liang An, Yebin Liu.<br>
+<i>IEEE Conference on International Conference on Computer Vision (<b>ICCV</b>), 2021</i><br>
+<a href="https://www.liuyebin.com/lwtotalcap/lwtotalcap.html"><i class="fas fa-fw fa-globe"></i>Projectpage</a> /
+<a href="https://www.liuyebin.com/lwtotalcap/assets/main.pdf"><i class="fas fa-fw fa-file-pdf"></i>Paper</a>
 </td>
 </tr>
 </table>
