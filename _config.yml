@@ -24,12 +24,12 @@ author:
   avatar           : "profile.jpg"
   name             : "Mengcheng Li"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student at Tsinghua University"
+  bio              : "Algorithm Engineer"
   location         : "Beijing, China"
-  employer         : "Tsinghua University"
+  employer         : "Honor Terminal Co., Ltd."
   uri              : # URL
   email            : "li-mc18@mails.tsinghua.edu.cn" 
-  resume           : "/files/mengcheng_li_resume_v2.pdf"
+  resume           : "/files/resume/main.pdf"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
