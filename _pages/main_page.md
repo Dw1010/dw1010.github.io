@@ -11,7 +11,7 @@ redirect_from:
 Hello, I'm Mengcheng Li. I am currently an algorithm engineer at Honor.
 I received my Ph.D. degree from the Department of Automation, Tsinghua University, under the supervision of Professor [Yebin Liu](http://www.liuyebin.com/). During my doctoral studies, my main research focused on hand motion capture, hand 3D reconstruction, hand interaction and motion generation, and hand avatar generation.
 I am currently open to new career opportunities. Feel free to contact me at: mengcheng_li@163.com
-Here is my resume: [中文简历](../files/mengcheng_li_resume_v2.pdf)
+Here is my resume: [中文简历](../files/resume/main.pdf)
 
 <head>
     <meta charset="UTF-8">
